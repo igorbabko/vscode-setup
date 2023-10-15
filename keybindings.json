@@ -1,0 +1,38 @@
+[
+  {
+    "key": "alt+,",
+    "command": "fileutils.newFile"
+  },
+  {
+    "key": "alt+.",
+    "command": "fileutils.newFolder"
+  },
+  {
+    "key": "alt+m",
+    "command": "fileutils.newFileAtRoot"
+  },
+  {
+    "key": "alt+/",
+    "command": "fileutils.newFolderAtRoot"
+  },
+  {
+    "key": "alt+c",
+    "command": "fileutils.duplicateFile"
+  },
+  {
+    "key": "alt+d",
+    "command": "fileutils.removeFile"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "fileutils.moveFile"
+  },
+  {
+    "key": "alt+r",
+    "command": "fileutils.renameFile"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "fileutils.copyFileName"
+  }
+]
