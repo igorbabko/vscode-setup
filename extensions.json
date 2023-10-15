@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "catppuccin.catppuccin-vsc-icons",
+    "thang-nm.catppuccin-perfect-icons",
+    "alexdauenhauer.catppuccin-noctis-icons",
+    "miguelsolorio.symbols",
+    "beardedbear.beardedicons",
+    "pkief.material-icon-theme",
+    "tal7aouy.icons",
+    "atommaterial.a-file-icon-vscode",
+    "navernoedenis.gruvbox-material-icons",
+    "jonathanharty.gruvbox-material-icon-theme",
+    "emmanuelbeziat.vscode-great-icons",
+    "file-icons.file-icons",
+    "hypernym-studio.hypernym-icons",
+    "jacobwgillespie.minimal-icons",
+    "azat-io.eyecons"
+  ]
+}
