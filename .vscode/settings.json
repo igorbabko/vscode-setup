@@ -1,0 +1,22 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.colorCustomizations": {
+        "editorSuggestWidget.selectedBackground": "#231739",
+        "sideBar.background": "#140E1A",
+        "list.activeSelectionBackground": "#231739",
+        "list.inactiveSelectionBackground": "#231739",
+        "list.focusBackground": "#231739",
+        "list.hoverBackground": "#231739"
+    }
+}
