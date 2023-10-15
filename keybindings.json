@@ -1,0 +1,71 @@
+[
+  {
+    "key": "ctrl+alt+h",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "lineHeight",
+      "value": [
+        {
+          "editor.lineHeight": 1.5
+        },
+        {
+          "editor.lineHeight": 2.2
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "lineNumbers",
+      "value": [
+        {
+          "editor.lineNumbers": "on"
+        },
+        {
+          "editor.lineNumbers": "relative"
+        },
+        {
+          "editor.lineNumbers": "off"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+alt+e",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "editor",
+      "value": [
+        {
+          "editor.overviewRulerBorder": true,
+          "editor.hideCursorInOverviewRuler": false,
+          "editor.colorDecorators": true,
+          "scm.diffDecorations": "all",
+          "editor.guides.indentation": true,
+          "editor.renderWhitespace": "all",
+          "editor.renderLineHighlight": "all",
+          "editor.occurrencesHighlight": "singleFile",
+          "editor.selectionHighlight": true,
+          "editor.matchBrackets": "always"
+        },
+        {
+          "editor.overviewRulerBorder": false,
+          "editor.hideCursorInOverviewRuler": true,
+          "editor.colorDecorators": false,
+          "scm.diffDecorations": "none",
+          "editor.guides.indentation": false,
+          "editor.renderWhitespace": "none",
+          "editor.renderLineHighlight": "none",
+          "editor.occurrencesHighlight": "off",
+          "editor.selectionHighlight": false,
+          "editor.matchBrackets": "never"
+        }
+      ]
+    }
+  }
+]
