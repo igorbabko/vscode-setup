@@ -38,4 +38,13 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.lineHeight": 2.5,
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
 }
