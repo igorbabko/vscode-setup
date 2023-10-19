@@ -17,7 +17,8 @@
         "list.activeSelectionBackground": "#231739",
         "list.inactiveSelectionBackground": "#231739",
         "list.focusBackground": "#231739",
-        "list.hoverBackground": "#231739"
+        "list.hoverBackground": "#231739",
+        "terminalCursor.foreground": "#C45DFF",
     },
     "editor.minimap.enabled": false,
     "editor.guides.indentation": false,
@@ -47,4 +48,8 @@
     "files.insertFinalNewline": true,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Dank Mono, JetBrainsMono Nerd Font",
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.lineHeight": 1.8,
+    "terminal.integrated.fontSize": 14,
 }
