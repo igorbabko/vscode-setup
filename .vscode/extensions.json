@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "josemurilloc.aura-spirit-dracula",
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "withfig.fig",
     ]
 }

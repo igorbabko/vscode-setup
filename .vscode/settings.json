@@ -52,4 +52,7 @@
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.lineHeight": 1.8,
     "terminal.integrated.fontSize": 14,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1",
+    },
 }
