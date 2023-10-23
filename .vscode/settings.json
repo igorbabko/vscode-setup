@@ -5,6 +5,8 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
@@ -55,35 +57,26 @@
   },
   "window.titleBarStyle": "native",
   "apc.electron": {
-    "titleBarStyle": "hidden"
+    "titleBarStyle": "hiddenInset"
   },
   "apc.font.family": "Dank Mono",
-  "apc.menubar.compact": true,
-  "apc.activityBar": {
-    "position": "bottom",
-    "size": 30,
-    "itemSize": 30,
-    "itemMargin": 10
-  },
-  "apc.header": {
-    "height": 30
-  },
-  "apc.sidebar.titlebar": {
-    "height": 30,
-    "fontSize": 12
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 20,
-    "fontSize": 10
-  },
   "apc.listRow": {
     "lists": [
       "explorer-folders-view",
       "quick-input-list",
       "results"
     ],
-    "height": 30,
-    "fontSize": 12
-  }
+    "height": 30
+  },
+  "apc.stylesheet": {
+    ".title-actions": "display: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+  },
 }
