@@ -1,6 +1,6 @@
 {
   "window.zoomLevel": 2,
-  "workbench.colorTheme": "Aura Dracula Spirit",
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
@@ -13,7 +13,7 @@
   "workbench.tips.enabled": false,
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#231739",
-    "sideBar.background": "#140E1A",
+    "sideBar.background": "#191521",
     "list.activeSelectionBackground": "#231739",
     "list.inactiveSelectionBackground": "#231739",
     "list.focusBackground": "#231739",
@@ -50,7 +50,7 @@
   "files.autoSave": "afterDelay",
   "terminal.integrated.fontFamily": "Dank Mono, JetBrainsMono Nerd Font",
   "terminal.integrated.tabs.enabled": false,
-  "terminal.integrated.lineHeight": 1.8,
+  "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
@@ -78,6 +78,12 @@
     ".sidebar": "border: none !important",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+    ".panel .composite.title": "visibility: hidden !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+    ".sidebar .title-label h2": "line-height: 2.8 !important",
+    ".monaco-editor .scroll-decoration": "display: none !important",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important",
+    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important",
   },
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
