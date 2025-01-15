@@ -1,0 +1,30 @@
+{
+  // 2 lessons - window + custom styles
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 2,
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 20,
+      "y": 16
+    }
+  },
+  "custom-ui-style.font.sansSerif": "Dank Mono",
+
+  "custom-ui-style.stylesheet": {
+    // lesson - window
+    // shadow under title when scrolling
+    ".monaco-editor .scroll-decoration": "display: none",
+    // triple dot dropdown inside the title container(s)
+    ".title-actions": "display: none !important",
+    // align title in the middle
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    // right margin of the amount of warnings / errors on the right side of the title
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    // margin of the title container (to not collide with the traffic lights buttons)
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    // left padding of the settings title (to not collide with traffic lights buttons)
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+  }
+}

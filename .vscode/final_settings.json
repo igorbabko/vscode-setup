@@ -1,0 +1,187 @@
+{
+  // 2 lessons - UI + custom styles (separate)
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+
+  // 2 lessons - sidebar + custom colors + custom styles (separate)
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "git.decorations.enabled": false,
+
+  // lesson - scrollbars + custom colors
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+
+  // lesson
+  "editor.stickyScroll.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.links": false,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.showFoldingControls": "never",
+  "editor.lineNumbers": "relative",
+  "editor.colorDecorators": false,
+  "editor.codeLens": false,
+  "editor.glyphMargin": true,
+  "scm.diffDecorations": "none",
+
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.matchBrackets": "never",
+
+  // lesson - typography
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // lesson - hover, autocompletions + custom colors
+  "editor.parameterHints.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestionsDelay": 999999999,
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+
+  // lesson - cursor + custom colors + custom styles
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+
+  // lesson - misc | final
+  "files.autoSave": "afterDelay",
+  "update.mode": "none",
+  "extensions.ignoreRecommendations": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // 2 lessons - window + custom styles
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 2,
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 20,
+      "y": 16
+    }
+  },
+  "custom-ui-style.font.sansSerif": "Dank Mono",
+
+  "custom-ui-style.stylesheet": {
+    // lesson - ui
+    // notification toast shadow
+    ".notification-toast": "box-shadow: none !important",
+    // command palette shadow
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    // command palette top offset
+    ".quick-input-widget": "top: 25vh !important",
+    // scrollbar inside the command palette
+    ".quick-input-list .scrollbar": "display: none",
+    // invisible small block at the end of the input inside the command palette
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    // search panel shadow and rounded corners
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    // search panel title bar
+    ".quick-input-titlebar": "background: #100B15 !important",
+    // title border
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+
+    // lesson - sidebar
+    // shadow under sidebar title when scrolling
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    // padding of the sidebar title
+    ".sidebar .title-label": "padding: 0 !important",
+    // sidebar border
+    ".sidebar": "border: none !important",
+    // sidebar border when sidebar is in focus
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    // border of the focused file in the sidebar
+    ".monaco-list-row.focused": "outline: none !important",
+
+    // lesson - window
+    // shadow under title when scrolling
+    ".monaco-editor .scroll-decoration": "display: none",
+    // triple dot dropdown inside the title container(s)
+    ".title-actions": "display: none !important",
+    // align title in the middle
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    // right margin of the amount of warnings / errors on the right side of the title
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    // margin of the title container (to not collide with the traffic lights buttons)
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    // left padding of the settings title (to not collide with traffic lights buttons)
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+
+    // lesson - cursor
+    // cursor gradient
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+  },
+
+  "workbench.colorCustomizations": {
+    // + lesson - cursor
+    "editorCursor.background": "#000000",
+
+    // + lesson - scrollbars
+    // make scrollbar indicators invisible
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+
+    "[Aura Dracula Spirit (Soft)]": {
+      // + lesson - autocompletions
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      // + lesson - sidebar
+      "sideBar.background": "#191521"
+    }
+  }
+}
