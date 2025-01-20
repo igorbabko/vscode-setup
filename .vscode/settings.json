@@ -80,5 +80,14 @@
   "editor.hover.enabled": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "scm.diffDecorations": "none"
+  "scm.diffDecorations": "none",
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.showFoldingControls": "never",
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false
 }
