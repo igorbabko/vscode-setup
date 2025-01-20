@@ -47,6 +47,7 @@
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
   },
   "custom-ui-style.font.sansSerif": "Dank Mono",
@@ -69,7 +70,8 @@
     "editorOverviewRuler.infoForeground": "#0000",
     "editorOverviewRuler.border": "#0000",
     "[Aura Dracula Spirit (Soft)]": {
-      "editorSuggestWidget.selectedBackground": "#3A334B"
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#191521"
     }
   },
   "editor.fontFamily": "Dank Mono",
@@ -116,5 +118,8 @@
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "files.autoSave": "afterDelay",
+  "update.mode": "none",
+  "extensions.ignoreRecommendations": true
 }
