@@ -67,7 +67,10 @@
     "editorOverviewRuler.addedForeground": "#0000",
     "editorOverviewRuler.errorForeground": "#0000",
     "editorOverviewRuler.infoForeground": "#0000",
-    "editorOverviewRuler.border": "#0000"
+    "editorOverviewRuler.border": "#0000",
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B"
+    }
   },
   "editor.fontFamily": "Dank Mono",
   "editor.fontSize": 14,
@@ -106,5 +109,12 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "emmet.triggerExpansionOnTab": true
 }
