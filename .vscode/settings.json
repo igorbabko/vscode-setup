@@ -55,5 +55,19 @@
   "editor.cursorStyle": "block",
   "workbench.colorCustomizations": {
     "editorCursor.background": "#000000"
+  },
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   }
 }
