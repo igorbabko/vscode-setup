@@ -119,27 +119,4 @@ if vim.g.vscode then
   vim.keymap.set('n', '<leader>of', function() vim.fn.VSCodeNotify('workbench.action.files.openFile') end, { noremap = true, silent = true })
   vim.keymap.set('n', '<leader>rw', function() vim.fn.VSCodeNotify('workbench.action.reloadWindow') end, { noremap = true, silent = true })
   vim.keymap.set('n', '<leader>os', function() vim.fn.VSCodeNotify('workbench.action.openSettingsJson') end, { noremap = true, silent = true })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end
