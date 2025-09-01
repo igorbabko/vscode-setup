@@ -120,3 +120,125 @@ if vim.g.vscode then
   vim.keymap.set('n', '<leader>rw', function() vim.fn.VSCodeNotify('workbench.action.reloadWindow') end, { noremap = true, silent = true })
   vim.keymap.set('n', '<leader>os', function() vim.fn.VSCodeNotify('workbench.action.openSettingsJson') end, { noremap = true, silent = true })
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if vim.g.vscode then
+  local opts = { noremap = true, silent = true }
+
+  local mappings = {
+    -- Word motions
+    { 'n', 'w', 'cursorWordPartRight' },
+    { 'n', 'b', 'cursorWordPartLeft' },
+    { 'v', 'w', 'cursorWordPartRightSelect' },
+    { 'v', 'b', 'cursorWordPartLeftSelect' },
+
+    -- Window management
+    { 'n', '<leader>wv', 'workbench.action.splitEditor' },
+    { 'n', '<leader>wh', 'workbench.action.splitEditorDown' },
+    { 'n', '<leader>ww', 'workbench.action.joinTwoGroups' },
+    { 'n', '<leader>wa', 'workbench.action.evenEditorWidths' },
+
+    -- Search and navigation
+    { 'n', '<leader>ss', 'workbench.action.showAllSymbols' },
+    { 'n', '<leader>sa', 'workbench.action.showCommands' },
+    { 'n', '<leader>sf', 'workbench.action.quickOpen' },
+    { 'n', '<leader>gd', 'editor.action.revealDefinition' },
+    { 'n', '<leader>gy', 'editor.action.goToTypeDefinition' },
+    { 'n', '<leader>gi', 'editor.action.goToImplementation' },
+    { 'n', '<leader>gr', 'editor.action.goToReferences' },
+    { 'n', '<leader>gs', 'workbench.action.gotoSymbol' },
+    { 'n', '<leader>gl', 'workbench.action.gotoLine' },
+
+    -- Usage info
+    { 'n', '<leader>fr', 'references-view.findReferences' },
+    { 'n', '<leader>sr', 'editor.action.referenceSearch.trigger' },
+    { 'n', '<leader>vd', 'editor.action.peekDefinition' },
+    { 'n', '<leader>vi', 'editor.action.peekImplementation' },
+    { 'n', '<leader>vt', 'editor.action.peekTypeDefinition' },
+    { 'n', '<leader>vh', 'editor.action.showHover' },
+
+    -- Find and replace
+    { 'n', '<leader>ff', 'actions.find' },
+    { 'n', '<leader>fr', 'editor.action.startFindReplaceAction' },
+    { 'n', '<leader>fg', 'workbench.action.findInFiles' },
+    { 'n', '<leader>rg', 'workbench.action.replaceInFiles' },
+
+    -- Refactoring
+    { 'n', '<leader>re', 'editor.action.rename' },
+    { 'n', '<leader>rf', 'editor.action.refactor' },
+
+    -- Actions and generation
+    { 'n', '<leader>qf', 'editor.action.quickFix' },
+    { 'n', '<leader>sg', 'editor.action.triggerSuggest' },
+    { 'n', '<leader>lu', 'editor.action.copyLinesUpAction' },
+    { 'n', '<leader>ld', 'editor.action.copyLinesDownAction' },
+
+    -- Navigation
+    { 'n', '<leader>en', 'editor.action.marker.next' },
+    { 'n', '<leader>ep', 'editor.action.marker.prev' },
+    { 'n', '<leader>je', 'workbench.action.navigateToLastEditLocation' },
+    { 'n', '<leader>rl', 'workbench.action.openRecent' },
+    { 'n', '<leader>nf', 'workbench.action.navigateForward' },
+    { 'n', '<leader>nb', 'workbench.action.navigateBack' },
+
+    -- Formatting
+    { 'n', '<leader>fm', 'editor.action.formatDocument' },
+    { 'n', '<leader>oi', 'editor.action.organizeImports' },
+
+    -- Line movement
+    { 'n', '<leader>mu', 'editor.action.moveLinesUpAction' },
+    { 'n', '<leader>md', 'editor.action.moveLinesDownAction' },
+
+    -- Copy actions
+    { 'n', '<leader>cp', 'copyFilePath' },
+    { 'n', '<leader>cr', 'copyRelativeFilePath' },
+
+    -- File operations
+    { 'n', '<leader>nf', 'workbench.action.files.newUntitledFile' },
+    { 'n', '<leader>cf', 'workbench.action.closeActiveEditor' },
+    { 'n', '<leader>fa', 'workbench.action.closeAllEditors' },
+    { 'n', '<leader>of', 'workbench.action.files.openFile' },
+    { 'n', '<leader>rw', 'workbench.action.reloadWindow' },
+    { 'n', '<leader>os', 'workbench.action.openSettingsJson' },
+  }
+
+  for _, mapping in ipairs(mappings) do
+    local mode, key, command = mapping[1], mapping[2], mapping[3]
+    vim.keymap.set(mode, key, function() vim.fn.VSCodeNotify(command) end, opts)
+  end
+end
