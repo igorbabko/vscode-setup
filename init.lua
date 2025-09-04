@@ -76,6 +76,15 @@ if vim.g.vscode then
     { 'n', '<leader>rf', 'editor.action.refactor' },
     { 'n', '<leader>qf', 'editor.action.quickFix' },
     { 'n', '<leader>sg', 'editor.action.triggerSuggest' },
+
+    { 'n', '<leader>lu', 'editor.action.copyLinesUpAction' },
+    { 'n', '<leader>ld', 'editor.action.copyLinesDownAction' },
+    { 'n', '<leader>mu', 'editor.action.moveLinesUpAction' },
+    { 'n', '<leader>md', 'editor.action.moveLinesDownAction' },
+    { 'n', '<leader>fm', 'editor.action.formatDocument' },
+    { 'n', '<leader>oi', 'editor.action.organizeImports' },
+    { 'n', '<leader>en', 'editor.action.marker.next' },
+    { 'n', '<leader>ep', 'editor.action.marker.prev' },
   }
 
   for _, mapping in ipairs(mappings) do
