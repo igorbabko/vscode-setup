@@ -57,6 +57,16 @@ if vim.g.vscode then
     { 'n', '<leader>nf', 'workbench.action.navigateForward' },
     { 'n', '<leader>nb', 'workbench.action.navigateBack' },
     { 'n', '<leader>je', 'workbench.action.navigateToLastEditLocation' },
+
+    { 'n', '<leader>ss', 'workbench.action.showAllSymbols' },
+    { 'n', '<leader>sa', 'workbench.action.showCommands' },
+    { 'n', '<leader>sf', 'workbench.action.quickOpen' },
+    { 'n', '<leader>vd', 'editor.action.peekDefinition' },
+    { 'n', '<leader>vi', 'editor.action.peekImplementation' },
+    { 'n', '<leader>vt', 'editor.action.peekTypeDefinition' },
+    { 'n', '<leader>vh', 'editor.action.showHover' },
+    { 'n', '<leader>fr', 'references-view.findReferences' },
+    { 'n', '<leader>sr', 'editor.action.referenceSearch.trigger' },
   }
 
   for _, mapping in ipairs(mappings) do
