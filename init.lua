@@ -46,7 +46,17 @@ if vim.g.vscode then
     { 'n', 'w', 'cursorWordPartRight' },
     { 'n', 'b', 'cursorWordPartLeft' },
     { 'v', 'w', 'cursorWordPartRightSelect' },
-    { 'v', 'b', 'cursorWordPartLeftSelect' }
+    { 'v', 'b', 'cursorWordPartLeftSelect' },
+
+    { 'n', '<leader>gd', 'editor.action.revealDefinition' },
+    { 'n', '<leader>gy', 'editor.action.goToTypeDefinition' },
+    { 'n', '<leader>gi', 'editor.action.goToImplementation' },
+    { 'n', '<leader>gr', 'editor.action.goToReferences' },
+    { 'n', '<leader>gs', 'workbench.action.gotoSymbol' },
+    { 'n', '<leader>gl', 'workbench.action.gotoLine' },
+    { 'n', '<leader>nf', 'workbench.action.navigateForward' },
+    { 'n', '<leader>nb', 'workbench.action.navigateBack' },
+    { 'n', '<leader>je', 'workbench.action.navigateToLastEditLocation' },
   }
 
   for _, mapping in ipairs(mappings) do
